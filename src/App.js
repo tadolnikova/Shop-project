@@ -1,8 +1,8 @@
 
 import './App.css';
-import Cart from './Components/Cart/Dishes';
+import Cart from './Components/Cart/Cart';
 import Dishes from './Components/DishesComponents/Dishes';
-import AllCategories from './Components/DishesComponents/Filter/AllCategories';
+import AllCategories from './Components/Filter/AllCategories';
 
 function App() {
   return (
