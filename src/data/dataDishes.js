@@ -27,7 +27,7 @@ const dataDishes = [
   {
       id: 4,
       price: 40,
-      img: 'baked-salmon',
+      img: 'bakedsalmon',
       name: 'Baked Salmon',
       category: 'SEAFOOD'
   },
@@ -35,7 +35,7 @@ const dataDishes = [
   {
     id: 5,
     price: 15,
-    img: 'cheese-balls',
+    img: 'cheeseballs',
     name: 'Cheese balls',
     category: 'APPETIZERS'
   },
@@ -43,7 +43,7 @@ const dataDishes = [
   {
     id: 6,
     price: 20,
-    img: 'easy-pasta',
+    img: 'easypasta',
     name: 'Easy Pasta',
     category: 'ITALIAN'
   },
@@ -51,7 +51,7 @@ const dataDishes = [
   {
     id: 7,
     price: 25,
-    img: 'spag-tomato',
+    img: 'spagtomato',
     name: 'Spaghetti',
     category: 'ITALIAN'
   },
@@ -59,15 +59,14 @@ const dataDishes = [
   {
     id: 8,
     price: 20,
-    img: 'mixed-pizza',
-    name: 'Pizza',
+    img: 'mixedpizza',
     category: 'ITALIAN'
   },
   
   {
     id: 9,
     price: 20,
-    img: 'spring-rolls',
+    img: 'springrolls',
     name: 'Spring Rolls',
     category: 'APPETIZERS'
   },
@@ -75,7 +74,7 @@ const dataDishes = [
   {
     id: 10,
     price: 15,
-    img: 'tomato-salad',
+    img: 'tomatosalad',
     name: 'Tomato Salad',
     category: 'SALADS'
   },
