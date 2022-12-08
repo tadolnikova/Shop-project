@@ -1,10 +1,13 @@
+import { useState } from "react";
+import ChangeQuantity from "../Cart/ChangeQuantity";
+
 const Dish = ({dish}) =>{
+    const [quantity, setQuantity] = useState(1);
     return (<div>
         <img src={`./${dish.img}.jpg`} alt="food"/>
         <h2>{dish.name}</h2>
         <p>$ {dish.price}</p>
-        {/* TO FIX LATER*/}
-        <button>HOW MANY PORTIONS??????</button>
+        <ChangeQuantity quantity = {quantity} setQuantity={setQuantity}/>
         <button>Add to cart</button>
     </div>)
 }
